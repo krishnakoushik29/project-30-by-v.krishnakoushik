@@ -44,6 +44,16 @@ function setup() {
   block15 = new Block(420,195,30,40);
   //top
   block16 = new Block(390,155,30,40);
+blocks17 = new Block(640,175,30,40);
+ blocks18= new Block(670,175,30,40);
+ blocks19 = new Block(700,175,30,40);
+ blocks20 = new Block(730,175,30,40);
+ blocks21 = new Block(760,175,30,40);
+ blocks22 = new Block(670,135,30,40); 
+ blocks23 = new Block(700,135,30,40);
+ blocks24 = new Block(730,135,30,40);
+  
+ 
 
   
   hexa=Bodies.circle(50,200,20)
@@ -89,6 +99,14 @@ function draw() {
   block15.display();
   fill("grey");
   block16.display();
+  blocks17.display();
+  blocks18.display();
+  blocks19.display();
+  blocks20.display();
+  blocks21.display();
+  blocks22.display();
+  blocks23.display();
+  blocks24.display();
  
   chain.display()
 
