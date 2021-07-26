@@ -113,7 +113,7 @@ function mouseReleased(){
 }
 function keyPressed(){
   if(keyCode===32){
-    slingshot.attach(this.hexa)
+    chain.attach(this.hexa)
   }
 }
  
