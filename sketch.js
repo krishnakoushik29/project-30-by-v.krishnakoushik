@@ -22,6 +22,7 @@ function setup() {
   ground = new Ground();
   stand1 = new Stand(390,300,250,10);
   stand2 = new Stand(700,200,200,10);
+  
  
   //level one
   block1 = new Block(300,275,30,40);
@@ -76,6 +77,7 @@ function draw() {
 
   ground.display();
   stand1.display();
+  stand2.display();
   
   strokeWeight(2);
   stroke(15);
