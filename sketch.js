@@ -111,5 +111,9 @@ function mouseDragged(){
 function mouseReleased(){
   chain.fly();
 }
-
+function keyPressed(){
+  if(keyCode===32){
+    slingshot.attach(this.hexa)
+  }
+}
  
